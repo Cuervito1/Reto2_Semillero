@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name=": Crear usuario desde el servicio con user" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-03-05T17:41:04" hostname="SQABOG-PCC87612" time="16.967">
+  <properties/>
+  <testcase name="quiero crear usuario por medio del metodo de user" classname=": Crear usuario desde el servicio con user" time="16.967">
+    <failure message="java.lang.IllegalArgumentException: body cannot be null" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: body cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:739)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationBodyConfigurations.body(RequestSpecificationBodyConfigurations.java:55)
+	at net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.body(RequestSpecificationDecorated.java:28)
+	at io.swagger.petstore.steps.PetstoreSteps.consultarUserUser(PetstoreSteps.java:64)
+	at io.swagger.petstore.stepDefinitions.UserStepDefinition.cuandoQuieroCrearUnUsuarioConUser(UserStepDefinition.java:16)
+	at ✽.cuando quiero crear un usuario con user(src/test/resources/features/user.feature:5)
+</failure>
+  </testcase>
+  <system-out><![CDATA[{"code":500,"type":"unknown","message":"something bad happened"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

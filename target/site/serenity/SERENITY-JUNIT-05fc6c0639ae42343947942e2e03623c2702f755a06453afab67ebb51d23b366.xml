@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name=": Crear usuario desde el servicio con user" skipped="0" tests="1" time="17.1" timestamp="2022-03-05 12:41:03"><testcase name="quiero crear usuario por medio del metodo de user"><error message="body cannot be null" type="java.lang.IllegalArgumentException">body cannot be null</error><system-err>body cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:739)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationBodyConfigurations.body(RequestSpecificationBodyConfigurations.java:55)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.body(RequestSpecificationDecorated.java:28)&#13;
+io.swagger.petstore.steps.PetstoreSteps.consultarUserUser(PetstoreSteps.java:64)&#13;
+io.swagger.petstore.stepDefinitions.UserStepDefinition.cuandoQuieroCrearUnUsuarioConUser(UserStepDefinition.java:16)&#13;
+✽.cuando quiero crear un usuario con user(src/test/resources/features/user.feature:5)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Prueba de servicios en bloque Order","Creacion, consulta y eliminacion de orden","SUCCESS","2022-03-01T18:26:11.044-05:00[America/Bogota]","0.0","22.34"
+"Crear usuario desde el servicio","Creacion, consulta y eliminacion de pet","PENDING","2022-03-05T06:58:38.303-05:00[America/Bogota]","0.0","0.48"
+": Crear usuario desde el servicio","quiero crear usuario por medio del metodo de pet","ERROR","2022-03-05T12:37:38.118-05:00[America/Bogota]","0.0","15.5"
+": Crear usuario desde el servicio con user","quiero crear usuario por medio del metodo de user","ERROR","2022-03-05T12:41:03.357-05:00[America/Bogota]","0.0","17.1"
